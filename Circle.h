@@ -9,5 +9,6 @@ class Circle {
       Circle(int r); // Overloaded Constructor
       ~Circle(); // Destructor
       void display();
+      void setRadius(int r);
       float calcArea();
 };

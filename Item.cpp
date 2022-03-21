@@ -14,7 +14,7 @@ Item::Item(){
 //Overloaded Constructor Implementation
 Item::Item(int pitemCode, float punitPrice, float 
            pdiscount){
-  itemcode = pitemCode;
+  itemCode = pitemCode;
   unitPrice = punitPrice;
   discount = pdiscount;
 }
